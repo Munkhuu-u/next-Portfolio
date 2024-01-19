@@ -6,3 +6,7 @@ export * from "./Location";
 export * from "./Logo";
 export * from "./Sun";
 export * from "./Twitter";
+export * from "./Share";
+export * from "./Message";
+export * from "./Copy";
+export * from "./Phone";

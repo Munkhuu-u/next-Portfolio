@@ -2,7 +2,7 @@ import { logos } from "../utils/logos";
 import { Logos } from "../components/elements";
 import { Button } from "../components/elements";
 
-export const Skills = () => {
+export const Footer = () => {
   return (
     <div className="flex flex-col justify-center px-[32px] py-[96px] gap-12 bg-white">
       <div className="flex flex-col  items-center gap-4">

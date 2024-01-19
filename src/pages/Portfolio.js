@@ -1,17 +1,25 @@
 import React from "react";
-import { Header, Hero, Skills } from "../components/index";
+import {
+  Header,
+  Hero,
+  Skills,
+  Experience,
+  Work,
+  ContactMe,
+  Footer,
+} from "../components/index";
 
 const Portfolio = () => {
   return (
     <div className="max-w-screen-xl m-auto">
-      <Header />
-      <Hero />
+      {/* <Header /> */}
+      {/* <Hero /> */}
       {/* <About /> */}
-      <Skills />
+      {/* <Skills /> */}
       {/* <Experience /> */}
       {/* <Work /> */}
       {/* <ContactMe /> */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
