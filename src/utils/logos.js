@@ -8,8 +8,6 @@ export const logos = [
     { url: "/skillLogos/Logo6.svg", name: "Express.js" },
     { url: "/skillLogos/Logo7.svg", name: "Nest.js" },
     { url: "/skillLogos/Logo8.svg", name: "Socket.io" },
-  ],
-  [
     { url: "/skillLogos/Logo9.svg", name: "PostgreSQL" },
     { url: "/skillLogos/Logo10.svg", name: "MongoDB" },
     { url: "/skillLogos/Logo11.svg", name: "Sass/Scss" },

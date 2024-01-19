@@ -5,12 +5,13 @@ export const ExpsFn = ({ exp }) => {
         <img src={exp.companyLogo} alt="" />
       </div>
       <div className="max-w-sm">
-        <h3>{exp.position}</h3>
+        <h3 className="text-black text-[20px]">{exp.position}</h3>
         <div>
-          <ul className="list-disc"></ul>
-          {exp.experiences.map((proj) => {
-            return <li className="list-disc ">{proj}</li>;
-          })}
+          <ul className="list-disc">
+            {exp.experiences.map((proj) => {
+              return <li>{proj}</li>;
+            })}
+          </ul>
         </div>
       </div>
       <div>

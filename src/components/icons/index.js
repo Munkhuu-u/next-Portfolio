@@ -10,3 +10,4 @@ export * from "./Share";
 export * from "./Message";
 export * from "./Copy";
 export * from "./Phone";
+export * from "./Copyright";

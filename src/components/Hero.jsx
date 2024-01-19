@@ -3,10 +3,10 @@ import { HeroDesc } from "./texts";
 
 export const Hero = () => {
   return (
-    <div className="flex gap-12 px-8 py-[96px] ">
+    <div className="flex m-auto justify-center gap-12 px-8 py-[96px] ">
       <div className="flex flex-col gap-12 max-w-3xl">
         <div className="flex flex-col gap-2">
-          <h2 className="text-6xl font-bold">Hi, I’m Sagar 👋</h2>
+          <h2 className="text-black text-6xl font-bold">Hi, I’m Sagar 👋</h2>
           <HeroDesc />
         </div>
         <div className="flex flex-col gap-2">

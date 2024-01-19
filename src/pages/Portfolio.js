@@ -2,6 +2,7 @@ import React from "react";
 import {
   Header,
   Hero,
+  About,
   Skills,
   Experience,
   Work,
@@ -11,14 +12,14 @@ import {
 
 const Portfolio = () => {
   return (
-    <div className="max-w-screen-xl m-auto">
-      {/* <Header /> */}
-      {/* <Hero /> */}
-      {/* <About /> */}
-      {/* <Skills /> */}
-      {/* <Experience /> */}
-      {/* <Work /> */}
-      {/* <ContactMe /> */}
+    <div className=" m-auto text-gray-600">
+      <Header />
+      <Hero />
+      <About />
+      <Skills />
+      <Experience />
+      <Work />
+      <ContactMe />
       <Footer />
     </div>
   );

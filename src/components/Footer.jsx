@@ -1,15 +1,16 @@
-import { logos } from "../utils/logos";
-import { Logos } from "../components/elements";
-import { Button } from "../components/elements";
+import { Copyright } from "./icons";
 
 export const Footer = () => {
   return (
-    <div className="flex flex-col justify-center px-[32px] py-[96px] gap-12 bg-white">
-      <div className="flex flex-col  items-center gap-4">
-        <Button buttName="Skills" />
-        <p>The skills, tools and technologies I am really good at:</p>
+    <div className="bg-gray-50">
+      <div className="flex flex-row max-w-screen-xl m-auto justify-center items-center px-[32px] py-[96px] gap-[8px] ">
+        <Copyright />
+        <p className="text-sm">
+          2023 | <span className="underline ">Designed</span> <span>and </span>
+          <span className=" underline ">coded</span> with <span>❤️ </span>
+          by Sagar Shah
+        </p>
       </div>
-      <Logos logos={logos} />
     </div>
   );
 };
