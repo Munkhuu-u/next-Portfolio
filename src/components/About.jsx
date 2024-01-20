@@ -1,5 +1,11 @@
 import { Button } from "./elements";
 import { aboutMe } from "@/utils/aboutMe";
+{
+  /* <div className="relative w-1/4 ">
+  <div className="absolute top-5 left-5 w-5/6 h-full bg-gray-800"></div>
+  <img className="absolute top-0 left-0" src="./HeroImg.png" alt="" />
+</div>; */
+}
 
 export const About = () => {
   return (
@@ -7,13 +13,11 @@ export const About = () => {
       <div className="max-w-screen-xl m-auto flex flex-col gap-12 items-center py-24 px-8">
         <Button buttName={"About me"} />
         <div className="flex gap-12">
-          <div>
-            <div>
-              <img src="/HomeImg.png" alt="" />
-            </div>
-            <div></div>
+          <div className="relative w-1/3">
+            <div className="absolute top-5 right-5 w-full h-5/6 bg-gray-800"></div>
+            <img className="absolute" src="/HomeImg.png" alt="" />
           </div>
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-6 w-2/3">
             <div>
               <h2 className="text-black text-xl">
                 "Curious about me? Here you have it:"

@@ -25,8 +25,9 @@ export const Hero = () => {
           <Figma />
         </div>
       </div>
-      <div>
-        <img className="shadow" src="/HeroImg.png" alt="" />{" "}
+      <div className="relative w-1/4 ">
+        <div className="absolute top-5 left-5 w-5/6 h-full bg-gray-800"></div>
+        <img className="absolute top-0 left-0" src="./HeroImg.png" alt="" />
       </div>
     </div>
   );

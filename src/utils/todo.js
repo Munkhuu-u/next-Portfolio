@@ -1,6 +1,5 @@
 //------TO DO--------
 
-//shadow
 //response
 
 //hanburger: belen tailwind menu or use transition and position
