@@ -3,7 +3,7 @@ import { Message, Copy, Phone, Git, Twitter, Figma } from "./icons";
 
 export const ContactMe = () => {
   return (
-    <div className="flex flex-col items-center py-24 px-8 gap-8">
+    <div className="max-w-screen-xl m-auto flex flex-col items-center py-24 px-8 gap-8">
       <div className="flex flex-col items-center gap-4">
         <Button buttName={"Get in touch"} />
         <p>

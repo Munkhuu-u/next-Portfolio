@@ -3,8 +3,8 @@ import { HeroDesc } from "./texts";
 
 export const Hero = () => {
   return (
-    <div className="flex m-auto justify-center gap-12 px-8 py-[96px] ">
-      <div className="flex flex-col gap-12 max-w-3xl">
+    <div className="flex max-w-screen-xl m-auto justify-center gap-12 px-8 py-[96px] ">
+      <div className="flex flex-col gap-12 ">
         <div className="flex flex-col gap-2">
           <h2 className="text-black text-6xl font-bold">Hi, I’m Sagar 👋</h2>
           <HeroDesc />
@@ -25,9 +25,9 @@ export const Hero = () => {
           <Figma />
         </div>
       </div>
-      <div className="relative w-1/4 ">
-        <div className="absolute top-5 left-5 w-5/6 h-full bg-gray-800"></div>
-        <img className="absolute top-0 left-0" src="./HeroImg.png" alt="" />
+      <div className="relative w-full ">
+        <div className="absolute top-5 left-5 w-4/6 h-full bg-gray-800"></div>
+        <img className="absolute " src="./HeroImg.png" alt="" />
       </div>
     </div>
   );

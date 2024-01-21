@@ -9,8 +9,8 @@ import { aboutMe } from "@/utils/aboutMe";
 
 export const About = () => {
   return (
-    <div className="bg-gray-50">
-      <div className="max-w-screen-xl m-auto flex flex-col gap-12 items-center py-24 px-8">
+    <div className="max-w-screen-xl m-auto bg-gray-50">
+      <div className=" flex flex-col gap-12 items-center py-24 px-8">
         <Button buttName={"About me"} />
         <div className="flex gap-12">
           <div className="relative w-1/3">
