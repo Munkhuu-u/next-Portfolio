@@ -9,7 +9,7 @@ import {
   ContactMe,
   Footer,
 } from "../components/index";
-import { ThemeProvider } from "../context";
+import { ThemeProvider } from "../context/ThemeContext";
 
 const Portfolio = () => {
   return (
