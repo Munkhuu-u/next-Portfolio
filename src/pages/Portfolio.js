@@ -1,4 +1,5 @@
 import React from "react";
+import { UseTheme } from "../context/ThemeContext";
 import {
   Header,
   Hero,
@@ -9,7 +10,7 @@ import {
   ContactMe,
   Footer,
 } from "../components/index";
-import { UseTheme } from "../context/ThemeContext";
+
 const Portfolio = () => {
   const { theme } = UseTheme();
 

@@ -13,3 +13,4 @@ export * from "./Phone";
 export * from "./Copyright";
 export * from "./Hanburger";
 export * from "./Moon";
+export * from "./Esc";
