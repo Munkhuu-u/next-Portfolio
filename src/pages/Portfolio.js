@@ -12,6 +12,7 @@ import {
 import { UseTheme } from "../context/ThemeContext";
 const Portfolio = () => {
   const { theme } = UseTheme();
+
   return (
     <div
       className={`m-auto ${
@@ -19,11 +20,11 @@ const Portfolio = () => {
       }`}
     >
       <Header />
-      {/* <Hero /> */}
-      {/* <About /> */}
-      {/* <Skills /> */}
-      {/* <Experience /> */}
-      {/* <Work /> */}
+      <Hero />
+      <About />
+      <Skills />
+      <Experience />
+      <Work />
       <ContactMe />
       <Footer />
     </div>

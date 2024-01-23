@@ -3,12 +3,13 @@ import { HeroDesc } from "./texts";
 import { UseTheme } from "../context/ThemeContext";
 export const Hero = () => {
   const { theme } = UseTheme();
-  const bgColor = theme === "dark" ? "bg-gray-950" : "bg-white";
 
   return (
-    <div className={`${bgColor}`}>
+    <div className={`${theme === "dark" ? "bg-gray-950" : "bg-white"}`}>
       <div
-        className={` flex max-w-screen-xl m-auto justify-center gap-12 px-8 py-[96px] `}
+        className={
+          "sm:flex sm:max-w-screen-xl sm:m-auto sm:justify-center sm:gap-12 sm:px-8 sm:py-[96px] flex flex-col-revers py-16 px-4"
+        }
       >
         <div className="flex flex-col gap-12 ">
           <div className="flex flex-col gap-2">

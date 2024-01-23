@@ -10,3 +10,6 @@
 .shadow {
   box-shadow: 40px 40px rgba(229, 231, 235, 1);
 }
+html {
+  scroll-behavior: smooth;
+}
