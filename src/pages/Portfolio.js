@@ -9,22 +9,24 @@ import {
   ContactMe,
   Footer,
 } from "../components/index";
-import { ThemeProvider } from "../context/ThemeContext";
-
+import { UseTheme } from "../context/ThemeContext";
 const Portfolio = () => {
+  const { theme } = UseTheme();
   return (
-    <ThemeProvider>
-      <div className="sm:m-auto sm:text-gray-600  m-auto text-gray-600">
-        <Header />
-        <Hero />
-        <About />
-        <Skills />
-        <Experience />
-        <Work />
-        <ContactMe />
-        <Footer />
-      </div>
-    </ThemeProvider>
+    <div
+      className={`m-auto ${
+        theme == "dark" ? "text-gray-300   " : " text-gray-600 "
+      }`}
+    >
+      <Header />
+      {/* <Hero /> */}
+      {/* <About /> */}
+      {/* <Skills /> */}
+      {/* <Experience /> */}
+      {/* <Work /> */}
+      <ContactMe />
+      <Footer />
+    </div>
   );
 };
 export default Portfolio;

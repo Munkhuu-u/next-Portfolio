@@ -1,6 +1,11 @@
 import React from "react";
 import Portfolio from "./Portfolio";
+import { ThemeProvider } from "../context/ThemeContext";
 
 export default function Home() {
-  return <Portfolio />;
+  return (
+    <ThemeProvider>
+      <Portfolio />
+    </ThemeProvider>
+  );
 }
