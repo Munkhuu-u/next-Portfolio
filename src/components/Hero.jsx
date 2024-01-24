@@ -42,7 +42,6 @@ export const Hero = () => {
 
         {/* Right side */}
         <div className="sm:relative sm:flex sm:flex-row flex flex-col relative h-full w-2/5 z-10 sm:m-0 m-auto">
-          {/* sm:absolute sm:right-5 sm:top-5 sm:w-full sm:h-full absolute right-5 top-5 w-full h-full bg-gray-800 -z-10 */}
           <div className="sm:absolute sm:left-5 sm:top-5 left-5 top-5 sm:w-full sm:h-full absolute w-full h-full bg-gray-800 -z-10"></div>
           <img src="./HeroImg.png" alt="" />
         </div>

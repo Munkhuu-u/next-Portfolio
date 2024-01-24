@@ -6,12 +6,16 @@ export const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <div
-      className={`${
-        theme === "dark" ? "sm:bg-gray-950 bg-gray-950" : "sm:bg-white bg-white"
-      } sticky top-0 right-0 left-0 z-20`}
-    >
-      <div className="sm:m-auto sm:max-w-screen-xl sm:flex sm:flex-row justify-between sm:px-8 sm:items-center p-4 flex flex-row max-w-screen-xl h-fit">
+    <div className={``}>
+      {/* Main header */}
+      <div
+        className={`fixed top-0 right-0 left-0 z-20 sm:m-auto sm:max-w-screen-xl sm:flex sm:flex-row justify-between sm:px-8 sm:items-center p-4 flex flex-row max-w-screen-xl h-fit 
+      ${
+        theme === "dark"
+          ? "sm:bg-gray-950 bg-gray-950 "
+          : "sm:bg-white bg-white"
+      }`}
+      >
         <div className="flex">
           <a href="#0">
             <Logo />
@@ -68,9 +72,10 @@ export const Header = () => {
 
       {/* Hamburger menu section */}
       <div
-        className={`${showMenu ? "visible" : "hidden"} ${
+        className={`z-30 sm:hidden flex flex-row bg-red-950 bg-opacity-25 
+        ${showMenu ? "visible" : "hidden"} ${
           theme == "dark" ? "bg-gray-950" : "bg-gray-50"
-        }sm:hidden flex flex-row bg-opacity-25`}
+        }`}
       >
         <div className="w-1/5"></div>
         <div className="w-4/5">
