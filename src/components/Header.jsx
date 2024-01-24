@@ -73,10 +73,10 @@ export const Header = () => {
       </div>
       {/* Hamburger menu section */}
       {showMenu && (
-        <div className="">
+        <div className=" ">
           {/* Menu rear division */}
           <div
-            className={`absolute left-0 top-0 w-full h-full bg-gray-500 bg-opacity-50`}
+            className={`absolute left-0 top-0 w-full h-full bg-gray-500 bg-opacity-50 transition-all duration-300  ease-in-out`}
             onClick={(e) => {
               setShowMenu(!showMenu);
             }}
@@ -84,7 +84,7 @@ export const Header = () => {
 
           {/* Front */}
           <div
-            className={`w-4/5 h-full absolute top-0 right-0 bg-opacity-100 z-20  ${
+            className={`w-4/5 h-full absolute top-0 right-0 z-20 overflow-hidden ${
               theme == "dark" ? "bg-gray-950" : "bg-gray-50"
             }`}
           >
