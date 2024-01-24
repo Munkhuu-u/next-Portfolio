@@ -5,7 +5,10 @@ export const Hero = () => {
   const { theme } = UseTheme();
 
   return (
-    <div id="0" className={`${theme === "dark" ? "bg-gray-950" : "bg-white"}`}>
+    <div
+      id="Hero"
+      className={`${theme === "dark" ? "bg-gray-950" : "bg-white"}`}
+    >
       <div
         className={
           "sm:max-w-screen-xl sm:m-auto sm:flex sm:flex-row sm:justify-center flex flex-col-reverse sm:gap-12 gap-12 sm:px-8 sm:py-[96px] py-16 px-4"
