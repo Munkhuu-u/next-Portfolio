@@ -1,4 +1,6 @@
+import { UseTheme } from "@/context/ThemeContext";
 export const Esc = () => {
+  const { theme } = UseTheme();
   return (
     <svg
       width="36"
@@ -9,14 +11,14 @@ export const Esc = () => {
     >
       <path
         d="M24 12L12 24"
-        stroke="#D1D5DB"
+        stroke={`${theme == "dark" ? "#D1D5DB" : "#4B5563"}`}
         stroke-width="2"
         stroke-linecap="round"
         stroke-linejoin="round"
       />
       <path
         d="M12 12L24 24"
-        stroke="#D1D5DB"
+        stroke={`${theme == "dark" ? "#D1D5DB" : "#4B5563"}`}
         stroke-width="2"
         stroke-linecap="round"
         stroke-linejoin="round"

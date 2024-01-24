@@ -12,11 +12,14 @@ export const About = () => {
     >
       <div className="max-w-screen-xl m-auto flex flex-col gap-12 items-center py-24 px-8">
         <Button buttName={"About me"} />
-        <div className="sm:flex sm:gap-12 sm:flex-col sm:gap-12 flex items-center">
-          <div className="relative w-1/3 z-10">
-            <div className="absolute top-5 right-5 w-full h-5/6 bg-gray-800 -z-10"></div>
-            <img className="z-20" src="/HomeImg.png" alt="" />
+        {/* Card parent view */}
+        <div className="sm:flex sm:flex-row sm:items-start sm:gap-12 flex flex-col gap-12 h-full">
+          {/* Image section */}
+          <div className="sm:relative w-1/3 z-10 h-full sm:m-0 m-auto relative">
+            <div className="sm:absolute sm:right-5 sm:top-5 sm:w-full sm:h-full absolute right-5 top-5 w-full h-full bg-gray-800 -z-10"></div>
+            <img src="/HomeImg.png" alt="" />
           </div>
+          {/* Card view */}
           <div className="flex flex-col gap-6 sm:w-2/3 w-full">
             <div>
               <h2

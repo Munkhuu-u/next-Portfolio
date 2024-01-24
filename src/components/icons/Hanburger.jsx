@@ -1,4 +1,7 @@
+import { UseTheme } from "@/context/ThemeContext";
 export const Hanburger = () => {
+  const { theme } = UseTheme();
+
   return (
     <svg
       width="36"
@@ -9,21 +12,21 @@ export const Hanburger = () => {
     >
       <path
         d="M10 18H26"
-        stroke="#4B5563"
+        stroke={`${theme == "dark" ? "#D1D5DB" : "#4B5563"}`}
         stroke-width="2"
         stroke-linecap="round"
         stroke-linejoin="round"
       />
       <path
         d="M10 12H26"
-        stroke="#4B5563"
+        stroke={`${theme == "dark" ? "#D1D5DB" : "#4B5563"}`}
         stroke-width="2"
         stroke-linecap="round"
         stroke-linejoin="round"
       />
       <path
         d="M10 24H26"
-        stroke="#4B5563"
+        stroke={`${theme == "dark" ? "#D1D5DB" : "#4B5563"}`}
         stroke-width="2"
         stroke-linecap="round"
         stroke-linejoin="round"
