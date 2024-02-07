@@ -11,7 +11,7 @@ import {
   Footer,
 } from "../components/index";
 
-const Portfolio = () => {
+export const Portfolio = () => {
   const { theme } = useTheme();
 
   return (
