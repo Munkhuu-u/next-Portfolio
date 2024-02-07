@@ -1,9 +1,9 @@
 import { Button } from "./elements";
 import { aboutMe } from "@/utils/aboutMe";
-import { UseTheme } from "@/context/ThemeContext";
+import { useTheme } from "@/context/ThemeContext";
 
 export const About = () => {
-  const { theme } = UseTheme();
+  const { theme } = useTheme();
   console.log(theme);
   return (
     <div

@@ -1,11 +1,10 @@
 import React from "react";
-import Portfolio from "./Portfolio";
-import { ThemeProvider } from "../context/ThemeContext";
+import Portfolio from "./portfolio";
 
 export default function Home() {
   return (
-    <ThemeProvider>
+    <div>
       <Portfolio />
-    </ThemeProvider>
+    </div>
   );
 }

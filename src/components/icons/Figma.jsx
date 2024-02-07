@@ -1,6 +1,6 @@
-import { UseTheme } from "@/context/ThemeContext";
+import { useTheme } from "@/context/ThemeContext";
 export const Figma = () => {
-  const { theme } = UseTheme();
+  const { theme } = useTheme();
   return (
     <svg
       width="36"

@@ -1,9 +1,9 @@
 import { Button } from "./elements";
 import { Message, Copy, Phone, Git, Twitter, Figma } from "./icons";
-import { UseTheme } from "@/context/ThemeContext";
+import { useTheme } from "@/context/ThemeContext";
 
 export const ContactMe = () => {
-  const { theme } = UseTheme();
+  const { theme } = useTheme();
   return (
     <div
       id="Contact"

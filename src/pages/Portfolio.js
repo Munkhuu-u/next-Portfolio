@@ -1,5 +1,5 @@
 import React from "react";
-import { UseTheme } from "../context/ThemeContext";
+import { useTheme } from "../context/ThemeContext";
 import {
   Header,
   Hero,
@@ -12,7 +12,7 @@ import {
 } from "../components/index";
 
 const Portfolio = () => {
-  const { theme } = UseTheme();
+  const { theme } = useTheme();
 
   return (
     <div

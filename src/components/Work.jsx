@@ -1,9 +1,9 @@
 import { Button, WorkFn } from "./elements";
 import { works } from "../utils/works";
-import { UseTheme } from "@/context/ThemeContext";
+import { useTheme } from "@/context/ThemeContext";
 
 export const Work = () => {
-  const { theme } = UseTheme();
+  const { theme } = useTheme();
   return (
     <div
       id="Work"

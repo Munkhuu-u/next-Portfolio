@@ -1,9 +1,9 @@
 import { logos } from "../utils/logos";
 import { Logos } from "../components/elements";
 import { Button } from "../components/elements";
-import { UseTheme } from "@/context/ThemeContext";
+import { useTheme } from "@/context/ThemeContext";
 export const Skills = () => {
-  const { theme } = UseTheme();
+  const { theme } = useTheme();
   return (
     <div className={`${theme == "dark" ? "bg-black" : " bg-white"}`}>
       <div className="max-w-screen-xl m-auto flex flex-col justify-center px-[32px] py-[96px] gap-12 ">

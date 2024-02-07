@@ -1,6 +1,6 @@
-import { UseTheme } from "@/context/ThemeContext";
+import { useTheme } from "@/context/ThemeContext";
 export const Logo = () => {
-  const { theme, setTheme } = UseTheme();
+  const { theme, setTheme } = useTheme();
   return (
     <svg
       width="92"

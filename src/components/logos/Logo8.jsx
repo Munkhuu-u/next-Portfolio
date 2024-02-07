@@ -1,6 +1,6 @@
-import { UseTheme } from "@/context/ThemeContext";
+import { useTheme } from "@/context/ThemeContext";
 export const Logo8 = () => {
-  const { theme } = UseTheme();
+  const { theme } = useTheme();
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

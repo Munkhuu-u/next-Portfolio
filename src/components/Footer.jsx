@@ -1,8 +1,8 @@
 import { Copyright } from "./icons";
-import { UseTheme } from "@/context/ThemeContext";
+import { useTheme } from "@/context/ThemeContext";
 
 export const Footer = () => {
-  const { theme } = UseTheme();
+  const { theme } = useTheme();
   return (
     <div className={`${theme == "dark" ? "bg-gray-900" : "bg-gray-50"}`}>
       <div className="max-w-screen-xl m-auto ">

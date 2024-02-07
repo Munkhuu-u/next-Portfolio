@@ -1,8 +1,8 @@
 import { exps } from "../utils/exps";
 import { Button, ExpsFn } from "./elements";
-import { UseTheme } from "@/context/ThemeContext";
+import { useTheme } from "@/context/ThemeContext";
 export const Experience = () => {
-  const { theme } = UseTheme();
+  const { theme } = useTheme();
   return (
     <div
       id="Experience"

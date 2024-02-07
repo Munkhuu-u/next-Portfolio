@@ -1,6 +1,6 @@
-import { UseTheme } from "@/context/ThemeContext";
+import { useTheme } from "@/context/ThemeContext";
 export const ExpsFn = ({ exp }) => {
-  const { theme } = UseTheme();
+  const { theme } = useTheme();
   return (
     <div
       className={`flex sm:flex-row flex-col justify-center gap-12  p-8 m-auto rounded-xl shadow-lg ${

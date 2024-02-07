@@ -1,8 +1,8 @@
 import { Logo, Sun, Divider, Moon, Hanburger, Esc } from "./icons";
 import { useState } from "react";
-import { UseTheme } from "../context/ThemeContext";
+import { useTheme } from "../context/ThemeContext";
 export const Header = () => {
-  const { theme, setTheme } = UseTheme();
+  const { theme, setTheme } = useTheme();
   const [showMenu, setShowMenu] = useState(false);
 
   return (
